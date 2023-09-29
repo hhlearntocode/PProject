@@ -1,0 +1,38 @@
+void stitle() {
+	PlaySound(TEXT("titletheme.wav"), NULL, SND_LOOP); //Theme song title screen.
+	Sleep(500);
+}
+
+void singame() {
+	PlaySound(TEXT("ingame.wav"), NULL, SND_LOOP);//theme ingame.
+	Sleep(500);
+}
+
+void sstart() {
+	PlaySound(TEXT("gamestart.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi interact với nút Start.
+	Sleep(500);
+}
+void sof() {
+	PlaySound(TEXT("otherf.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi interact với nút Help,About,Load,...
+	Sleep(500);
+}
+
+void swasd(){
+	PlaySound(TEXT("wasd.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi nhấn "wasd" trong game
+	Sleep(500);
+}
+
+void sxsound() {
+	PlaySound(TEXT("xsound.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi interact với ô trống của p1.
+	Sleep(500);
+}
+
+void sosound() {
+	PlaySound(TEXT("osound.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi interact với ô trống của p2.
+	Sleep(500);
+}
+
+void swstitle(){
+    PlaySound(TEXT("wstitle.wav"), NULL, SND_LOOP);//Hiệu ứng âm thanh khi nhấn "ws" o man hinh title.
+	Sleep(500);
+}
