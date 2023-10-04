@@ -1,3 +1,6 @@
+#include<iostream>
+#include<Windows.h>
+
 void stitle() {
 	PlaySound(TEXT("titletheme.wav"), NULL, SND_LOOP); //Theme song title screen.
 	Sleep(500);
